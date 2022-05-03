@@ -23,3 +23,5 @@ router.route('/:postId')
 router.route('/:postId/edit')
     .put(editPost)
     .get(editPostView);
+
+    module.exports = router;
